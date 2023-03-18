@@ -1,0 +1,152 @@
+@import url('https://fonts.cdnfonts.com/css/bahnschrift');
+@import url('https://fonts.cdnfonts.com/css/century-gothic');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/bg\ 2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box_webca{
+    width: 450px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left_webca{
+    width: 450px;
+    height: 335px;
+    background: #AA77FF;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left_webca #video{
+    width: 100%;
+    height: 335px;
+    border-radius: 15px;
+    position: absolute;
+    z-index: 111;
+    top: 0;
+    left: 0;
+}
+
+.user_img{
+    width: 212px;
+    height: 212px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.buttom_web #click-photo{
+    font-family: 'Bahnschrift' sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    background: linear-gradient(93.44deg, #5B2DA7 0%, #EF9CE2 100%);
+    border-radius: 5px;
+    padding:19px 47px 18px 47px ;
+    margin: 30px 0;
+    border: none;
+    cursor: pointer;
+}
+
+
+.box_foto{
+    width: 450px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right_foto{
+    width: 450px;
+    height: 335px;
+    background: #AA77FF;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right_foto #canvas{
+    width: 450px;
+    height: 335px;
+    border-radius: 15px;
+    position: absolute;
+    z-index: 111;
+    top: 0;
+    left: 0;
+}
+
+.user_img2{
+    width: 212px;
+    height: 212px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.buttom_foto #send-foto{
+    font-family: 'Bahnschrift' sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    background: linear-gradient(93.44deg, #5B2DA7 0%, #EF9CE2 100%);
+    border-radius: 5px;
+    padding:19px 100px 18px 100px ;
+    margin: 30px 0;
+    border: none;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 800px){
+    .container{
+        width: 90%;
+        flex-direction: column;
+    }
+    .box_webca, .box_foto{
+        width: 360px;
+    }
+    .left_webca, .right_foto{
+        width: 100%;
+    }
+    .right_foto #canvas{
+        width: 360px;
+    }
+}

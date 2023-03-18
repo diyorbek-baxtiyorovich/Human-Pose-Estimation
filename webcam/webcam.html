@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="webcam.css">
+    <title>Webcam</title>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="container">
+            <div class="box_webca">
+                <div class="left_webca">
+                    <div class="user_web">
+                        <video id="video"  autoplay></video>
+                    </div>
+                    <div class="user_img">
+                        <img src="../img/2.png" alt="">
+                    </div> 
+                </div>
+                <div class="buttom_web">
+                    <button id="click-photo">TAKE A PHOTO</button>
+                </div>
+            </div>
+            <div>    
+                <form action="#" class="box_foto">
+                    <div class="right_foto">
+                        <div class="user_web2">
+                            <canvas id="canvas"></canvas>
+                        </div>
+                        <div class="user_img2">
+                            <img src="../img/Group 7.png" alt="">
+                        </div> 
+                    </div>
+                    <div class="buttom_foto">
+                        <button id="send-foto">SEND</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="webcam.js"></script>
+
+    <!-- <video id="video" width="320" height="240" autoplay></video>
+    <button id="click-photo">Click Photo</button>
+    <canvas id="canvas" width="320" height="240"></canvas>  -->
+</body>
+</html>

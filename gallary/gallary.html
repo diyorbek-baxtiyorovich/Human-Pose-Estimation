@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gallary.css">
+    <link href="//db.onlinewebfonts.com/c/0a6ee448d1bd65c56f6cf256a7c6f20a?family=Bahnschrift" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Gallary</title>
+</head>
+<body>
+    
+    <div class="wrappers" style='background-image: url("./name.png");'>
+        <div class="left_block">
+            <div class="left_topLogo">
+                <div class="text_fur">
+                    <h1>GALLERY</h1>
+                </div>
+            </div>
+            <div class="buttom_mein-left">
+                <div class="solider_block">
+                    <ul>
+                        <li> 
+                            <button class="active" type="button" id="buttom_click" >Photo 1</button>
+                        </li>
+                        <li>
+                            <button type="button" id="buttom_click">Photo 2</button>
+                            <span></span>
+                        </li>
+                        <li>
+                            <button type="button" id="buttom_click">Photo 3</button>
+                            <span></span>
+                        </li>
+                        <li>
+                            <button type="button" id="buttom_click">Photo 4</button>
+                            <span></span>
+                        </li>
+                        <li>
+                            <button type="button" id="buttom_click">Photo 2</button>
+                            <span></span>
+                        </li>
+                        <li>
+                            <button type="button" id="buttom_click">Photo 3</button>
+                            <span></span>
+                        </li>
+                        <li>
+                            <button type="button" id="buttom_click">Photo 4</button>
+                            <span></span>
+                        </li>
+                        <li>
+                            <button type="button" id="buttom_click">Photo 2</button>
+                            <span></span>
+                        </li>
+                        <li>
+                            <button type="button" id="buttom_click">Photo 3</button>
+                            <span></span>
+                        </li>
+                        <li>
+                            <button type="button" id="buttom_click">Photo 4</button>
+                            <span></span>
+                        </li>
+                        <li>
+                            <button type="button" id="buttom_click">Photo 2</button>
+                            <span></span>
+                        </li>
+                        <li>
+                            <button type="button" id="buttom_click">Photo 3</button>
+                            <span></span>
+                        </li>
+                        <li>
+                            <button type="button" id="buttom_click">Photo 4</button>
+                            <span></span>
+                        </li>
+                        <li>
+                            <button type="button" id="buttom_click">Photo 2</button>
+                            <span></span>
+                        </li>
+                        <li>
+                            <button type="button" id="buttom_click">Photo 3</button>
+                            <span></span>
+                        </li>
+                        <li>
+                            <button type="button" id="buttom_click">Photo 4</button>
+                            <span></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="login">
+                <button type="button">Log out</button>
+            </div>
+        </div>
+        <div class="mein">
+            <div class="top_mein">
+                <div class="top_name">
+                    <span>Photo 1</span>
+                </div>
+            </div>
+            <div class="center_mein">
+                <div class="block_user">
+                    <div class="boxUser_img">
+                        <img src="./photo_2022-10-07_19-34-43.jpg" alt="dadad">
+                    </div>
+                    <div class="download-buttom">
+                        <button type="button">Download</button>
+                    </div>
+                    <div class="link">
+                        <div class="left_buttom">
+                            <a href="#">UPLOAD</a>    
+                        </div>  
+                        <div class="right_buttom">
+                            <a href="#">WEBCAM</a>
+                        </div>                      
+                        <div class="delete_buttom">
+                            <a href="#">Delete</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+
+        const solider_block = document.querySelector(".solider_block").querySelectorAll("button");
+        const angle = document.querySelector(".angle");
+        const buttom_click = document.querySelector("#buttom_click");
+        solider_block.forEach(item => {
+            item.addEventListener("click", function(){
+                solider_block.forEach(nav=>nav.classList.remove("active") )
+                this.classList.add("active");
+                
+            })
+        })
+        buttom_click.addEventListener("click", ()=>{
+
+        });
+
+    </script>
+</body>
+</html>

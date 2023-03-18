@@ -1,0 +1,337 @@
+@import url('https://fonts.cdnfonts.com/css/bahnschrift');
+@import url('https://fonts.cdnfonts.com/css/century-gothic');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100%;
+    height: auto;
+}
+.top_mein{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/MacBook\ Pro\ 14_\ -\ 3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+}
+
+.bac_img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+.bac_img img{
+    width: 55%;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.contener{
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_text{
+    width: 60%;
+    height: auto;
+    padding: 150px 0;
+    z-index: 11;
+}
+
+.left_text h1{
+    font-family: 'Bahnschrift', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 77px;
+    color: #000000;
+}
+
+.left_text p{
+    font-family: 'Century Gothic', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 114.11%;    
+    text-align: justify;
+    letter-spacing: -0.055em;
+    color: #000000;
+    opacity: 0.7;
+    width: 80%;
+    margin: 50px 0;
+}
+
+.left_text button{
+    padding: 15px 50px;
+    color: #fff;
+    background: linear-gradient(93.32deg, #8D46F7 0.46%, #EF9CE2 100%);
+    border-radius: 10px;
+    font-family: 'Bahnschrift';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    border: none;
+    line-height: 43px;
+    cursor: pointer;
+}
+
+.right_pos{
+    width: 50%;
+    height: auto;
+    position: relative;
+}
+
+.user_img{
+    width: 100%;
+}
+
+.user_img img{
+    width: 40%;
+    position: absolute;
+    z-index: 11;
+    left: 200px;
+    top: 30px;
+}
+
+.crol_img{
+    width: 100%;
+    height: auto;
+}
+
+.crol_img img{
+    width: 60%;
+    position: absolute;
+    z-index: 11;
+    left: -180px;
+    top: 70px;
+}
+
+.block_cer{
+    width: 100%;
+    height: 100vh;
+}
+
+.modal{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./img/bg\ 4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    display: none;
+}
+
+.xmark{
+    width: auto;
+    height: auto;
+}
+.xmark i{
+    font-size: 46px;
+    position: absolute;
+    top: 30px;
+    right: 100px;
+    color: #8D46F7;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.xmark i:hover{
+    transform: rotate(180deg);
+}
+
+.container{
+    width: 1000px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left_block{
+    width: 455px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box_webca{
+    width: 100%;
+    height: 335px;
+    background-color: #8D46F7;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.center_box_left{
+    width: 250px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center_box_left img{
+    width: 60%;
+}
+
+.link_webca{
+    margin: 30px 0;
+}
+
+.link_webca a{
+    padding: 17px 70px;
+    text-decoration: none;
+    font-family: 'Bahnschrift', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    background: linear-gradient(91.17deg, #5B2DA7 0%, #EF9CE2 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+
+.right_block{
+    width: 455px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box_upload{
+    width: 100%;
+    height: 335px;
+    background-color: #8D46F7;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.center_icon_right{
+    width: 250px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center_icon_right img{
+    width: 60%;
+}
+.link_upload{
+    margin: 30px 0;
+}
+
+.link_upload a{
+    padding: 17px 70px;
+    text-decoration: none;
+    font-family: 'Bahnschrift', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    background: linear-gradient(91.17deg, #5B2DA7 0%, #EF9CE2 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+
+
+@media only screen and (max-width: 1020px){
+    .top_mein{
+        overflow: auto;
+    }
+    .contener{
+        width: 90%;
+    }
+}
+
+
+
+@media only screen and (max-width: 800px){
+    .xmark i{
+        right: 10px;
+    }
+    .container{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .right_block, .left_block{
+        width: 50%;
+        height: 40%;
+    }
+    .center_box_left, .center_icon_right{
+        width: 100px;
+        height: 100px;
+    }
+    .link_webca a, .link_upload a{
+        padding: 8px 30px;
+        font-size: 28px;
+    }
+    .top_mein{
+        height: 70vh;
+    }
+    .left_text{
+        padding: 40px 0 ;
+        width: 100%;
+        align-items: center;
+    }
+    .left_text h1{
+        font-size: 40px;
+    }
+    .left_text p{
+        width: 100%;
+        font-size: 20px;
+        margin: 40px 0;
+    }
+    .right_pos{
+        display: none;
+    }
+    .bac_img{
+        display: none;
+    }
+    .left_text button{
+        padding: 8px 30px;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 470px){
+    .left_text h1{
+        font-size: 30px;
+        line-height: 30px;
+    }
+}

@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrappers{
+    width: 100%;
+    height: 100vh;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 888;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_block{
+    width: 20%;
+    height: 100%;
+    box-shadow: 9px 13px 15px rgba(0, 0, 0, 0.15);
+    position: relative;
+}
+
+.left_topLogo{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    line-height: 100px;
+    background-color: #fff;
+}
+.text_fur h1{
+    font-family: 'Bahnschrift';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    color: #3A1078;
+}
+
+.buttom_mein-left{
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-color: #AA77FF;
+    overflow-y: scroll;
+    padding: 20px 0;
+}
+
+.solider_block{
+    width: 100%;
+    height: auto;
+}
+
+.solider_block ul{
+    width: 100%;
+    height: auto;
+}
+
+.solider_block ul li{
+    margin: 15px 0;
+}
+.solider_block ul li #buttom_click{
+    width: 240px;
+    height: 60px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 60px;
+    font-family: 'Bahnschrift';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: #5B2DA7;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.solider_block ul li #buttom_click:hover{
+    background: #5B2DA7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) ;
+    border-radius: 0px 20px 20px 0px;
+    color: #FFFFFF ;
+}
+.solider_block ul li button.active{
+    background: #5B2DA7 !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 0px 20px 20px 0px !important;
+    color: #FFFFFF !important;
+}
+
+.solider_block ul li:nth-child(1) {
+    margin: 0;
+}
+
+.login{
+    width: 97%;
+    height: 40px;
+    position: absolute;
+    bottom: 4px;
+    z-index: 999;
+}
+.login button{
+    width: 100%;
+    border: none;
+    font-family: 'Bahnschrift';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    color: #FFFFFF;
+    background: #5B2DA7;
+    border-radius: 20px 20px 0px 0px;
+    cursor: pointer;
+}
+
+
+::-webkit-scrollbar{
+    width: 10px;
+    height: 1px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #fff;
+    border-radius: 10px;
+    height: 200px;
+}
+::-webkit-scrollbar-track{
+    background-color: #5B2DA7;
+}
+
+.mein{
+    min-width: 80%;
+    height: 100%;
+}
+
+
+.top_mein{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 40px;
+}
+
+.top_name span{
+    padding: 10px 40px;
+    border:none;
+    text-decoration: none;
+    background: linear-gradient(91.17deg, #5B2DA7 0%, #EF9CE2 100%);
+    border-radius: 5px;
+    font-family: 'Bahnschrift';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFFFFF;
+}
+
+.center_mein{
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.block_user{
+    width: 700px;
+    height: auto;
+}
+
+.boxUser_img{
+    width: 100%;
+    height: 400px;
+    /* background: #AA77FF; */
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.box_users{
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user{
+    width: 40%;
+}
+.user img{
+    width: 100%;
+}
+
+.boxUser_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain ;
+    border-radius: 18px;
+    object-position: center;
+}
+
+.download-buttom{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.download-buttom button{
+    padding: 15px 100px;
+    border: none;
+    font-family: 'Bahnschrift';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFFFFF;
+    background: linear-gradient(91.17deg, #5B2DA7 0%, #EF9CE2 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.link{
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left_buttom a{
+    padding: 10px 50px;
+    border:none;
+    text-decoration: none;
+    background: linear-gradient(91.17deg, #5B2DA7 0%, #EF9CE2 100%);
+    border-radius: 5px;
+    font-family: 'Bahnschrift';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFFFFF;
+}
+
+.right_buttom a, .delete_buttom a{
+    padding: 10px 40px;
+    border:none;
+    text-decoration: none;
+    background: linear-gradient(91.17deg, #5B2DA7 0%, #EF9CE2 100%);
+    border-radius: 5px;
+    font-family: 'Bahnschrift';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFFFFF;
+}
+
+
+@media only screen and (max-width: 800px){
+    .left_block{
+        width: 300px;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: none;
+    }
+    .mein{
+        width: 100%;
+        height: 100vh
+    }
+    .boxUser_img{
+        width: 70%;
+        height: 300px;
+        margin: 0 auto;
+    }
+    .box_users{
+        width: 200px;
+    }
+    .download-buttom button{
+        padding: 12px 60px;
+    }
+    .link{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .right_buttom a, .delete_buttom a, .left_buttom a{
+        padding: 10px 30px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .link{
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+    }
+    .delete_buttom{
+        width: 50%;
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .link{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .right_buttom a, .delete_buttom a, .left_buttom a {
+        padding: 12px 50px;
+    }
+    .delete_buttom{
+        margin: 0;
+    }
+}
